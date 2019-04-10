@@ -140,7 +140,7 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Peserta</h2>
+                    <h2>Peserta Sudah Verifikasi</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -220,6 +220,92 @@
                 </div>
               </div>
             </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Peserta Belum Verifikasi</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <!-- start project list -->
+                    <table class="table table-striped projects">
+                      <thead>
+                        <tr>
+                          <th style="width: 1%">No</th>
+                          <th style="width: 20%">Nama Tim</th>
+                          <th>Asal Sekolah</th>
+                          <th>Cabang Lomba</th>
+                          <th>Status</th>
+                          <th style="width: 20%">Aksi</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a>Pesamakini Backend UI</a>
+                            <br />
+                            <small>Created 01.01.2015</small>
+                          </td>
+                          <td>
+                            <a>Pesamakini Backend UI</a>
+                            <br />
+                            <small>Created 01.01.2015</small>
+                          </td>
+                          <td>
+                            <a>Pesamakini Backend UI</a>
+                            <br />
+                            <small>Created 01.01.2015</small>
+                          </td>
+                          <td>
+                            <button type="button" class="btn btn-primary btn-xs">Verified</button>
+                          </td>
+                          <td>
+                            <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                            <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a>Pesamakini Backend UI</a>
+                            <br />
+                            <small>Created 01.01.2015</small>
+                          </td>
+                          <td>
+                            <a>Pesamakini Backend UI</a>
+                            <br />
+                            <small>Created 01.01.2015</small>
+                          </td>
+                          <td>
+                            <a>Pesamakini Backend UI</a>
+                            <br />
+                            <small>Created 01.01.2015</small>
+                          </td>
+                          <td>
+                            <button type="button" class="btn btn-dark btn-xs">Unverified</button>
+                          </td>
+                          <td>
+                            <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                            <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end project list -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
         <!-- /page content -->
