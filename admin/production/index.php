@@ -205,7 +205,7 @@
                             <small>Created 01.01.2015</small>
                           </td>
                           <td>
-                            <button type="button" class="btn btn-danger btn-xs">Unverified</button>
+                            <button type="button" class="btn btn-dark btn-xs">Unverified</button>
                           </td>
                           <td>
                             <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>

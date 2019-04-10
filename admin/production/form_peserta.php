@@ -145,7 +145,7 @@
                             <label class="btn btn-primary" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
                               <input type="radio" name="gender" value="Verified"> &nbsp; Verified &nbsp;
                             </label>
-                            <label class="btn btn-danger" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                            <label class="btn btn-dark" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
                               <input type="radio" name="gender" value="Unverified"> Unverified
                             </label>
                           </div>
