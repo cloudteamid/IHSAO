@@ -180,7 +180,32 @@
                             <small>Created 01.01.2015</small>
                           </td>
                           <td>
-                            <button type="button" class="btn btn-success btn-xs">Success</button>
+                            <button type="button" class="btn btn-primary btn-xs">Verified</button>
+                          </td>
+                          <td>
+                            <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                            <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a>Pesamakini Backend UI</a>
+                            <br />
+                            <small>Created 01.01.2015</small>
+                          </td>
+                          <td>
+                            <a>Pesamakini Backend UI</a>
+                            <br />
+                            <small>Created 01.01.2015</small>
+                          </td>
+                          <td>
+                            <a>Pesamakini Backend UI</a>
+                            <br />
+                            <small>Created 01.01.2015</small>
+                          </td>
+                          <td>
+                            <button type="button" class="btn btn-danger btn-xs">Unverified</button>
                           </td>
                           <td>
                             <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
