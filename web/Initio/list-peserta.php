@@ -8,7 +8,7 @@
 	
 	<title>IHSAO - List Peserta</title>
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	<link rel="icon" type="images/png" href="assets/images/icon.png">
 	
 	<!-- Bootstrap -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
@@ -41,19 +41,20 @@
 			
 			<div class="navbar-collapse collapse">
 				
-<!-- 				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="about.html">About</a></li>
-					<li class="dropdown">
+ 				<ul class="nav navbar-nav">
+					<li><a href="index.html">Beranda</a></li>
+					<li><a href="about.html">About</a></li>
+					<li class="active"><a href="list-peserta.php">Peserta</a></li>
+		<!-- 			<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="sidebar-left.html">Left Sidebar</a></li>
 							<li><a href="sidebar-right.html">Right Sidebar</a></li>
 							<li><a href="single.html">Blog Post</a></li>
 						</ul>
-					</li>
-					<li><a href="blog.html">Blog</a></li>
-				</ul> -->
+					</li> -->
+					<li><a href="blog.html">Pendaftaran</a></li>
+				</ul>
 			
 			</div><!--/.nav-collapse -->			
 		</div>	
@@ -122,6 +123,7 @@
 					<p class="follow-me-icons">
 						<a href="https://www.instagram.com/ihsao2019/"><i class="fa fa-instagram fa-2"></i></a>
 					</p>
+					<a href=""><p>ihsao2019</p>
 				</div>
 			</div>
 
@@ -157,7 +159,7 @@
 			<div class="col-md-6 widget">
 				<div class="widget-body">
 					<p class="text-right">
-						Copyright &copy; 2019, Cloudteam.id<br> 
+						&copy; IHSAO 2019 - Politeknik Caltex Riau by CloudTeamID<br> 
 				</div>
 			</div>
 
@@ -173,3 +175,4 @@
 <script src="assets/js/template.js"></script>
 </body>
 </html>
+
