@@ -4,7 +4,7 @@ html {
 body {
   font-size: 15px;
   font-size: 0.9375rem;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-family: "Open sans", Helvetica, Arial, sans-serif, proxima_nova_altblack;
   color: #666666;
   padding: 0;
 }
@@ -201,6 +201,7 @@ a:hover {
   font-weight: 300;
   font-size: 21px;
   font-size: 1.3125rem;
+  color : #292929;
 }
 .text-msg {
   line-height: 1.7em;
@@ -513,6 +514,21 @@ img {
 
 
 **********************************************************************/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 6px;
+  text-align: left;
+  font-family: "Latha";
+  font-size: 17px;
+  letter-spacing: 1px;
+  color : #292929;
+  font-weight : normal;
+}
+
 .section-title,
 .entry-title {
   display: block;
@@ -526,6 +542,66 @@ img {
   font-size: 2.25rem;
   letter-spacing: 1px;
 }
+
+.section-title2{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Roboto";
+  margin: 25px 0 0 0;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.section-title3{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Latha";
+  margin: 50px 0 0 0;
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.section-title4{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Latha";
+  margin: 15px 0 0 0;
+  text-align: left;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  letter-spacing: 0.2px;
+}
+
+.hr-style1 {
+	border: 0;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(234,195,56,1), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(234,195,56,1), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(234,195,56,1), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(234,195,56,1), rgba(0,0,0,0));
+}
+
+.hr-style2 {
+    border: 0;
+    height: 3px;
+    background: #e6eaef;
+}
+
+.hr-style3 {
+	border: 0;
+    height: 3px;
+    background: #e6eaef;
+}
+
 .section-title a,
 .entry-title a {
   color: #333333;
@@ -544,8 +620,8 @@ img {
   height: 4px;
   top: .53em;
   width: 400%;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #eac338;
+  border-top: 1px solid #eac338;
 }
 .section-title span:before,
 .entry-title span:before {
