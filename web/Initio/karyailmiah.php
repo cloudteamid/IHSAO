@@ -6,9 +6,9 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>Right Sidebar | Initio - Free, multipurpose html5 template by GetTemplate</title>
+	<title>Inter High School Accounting Olympiad - Politeknik Caltex Riau</title>
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	<link rel="icon" type="images/png" href="assets/images/icon.png">
 	
 	<!-- Bootstrap -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
@@ -41,17 +41,10 @@
 			<div class="navbar-collapse collapse">
 				
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Beranda</a></li>
-					<li><a href="about.html">Informasi</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="single.html">Blog Post</a></li>
-						</ul>
-					</li>
-					<li><a href="blog.html">Pendaftaran</a></li>
+					<<li><a href="index.php">Beranda</a></li>
+					<li><a href="informasi.php">About</a></li>
+					<li><a href="list-peserta.php">Peserta</a></li>
+					<li><a href="pendaftaran.php">Pendaftaran</a></li>
 				</ul>
 			
 			</div><!--/.nav-collapse -->			
