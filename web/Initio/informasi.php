@@ -69,7 +69,7 @@
 		</div> 
 		<hr class="hr-style1">
 		
-		<!-- OPSI 1 -->
+		<!-- Gelombang Pendaftaran -->
 		<table class="informasi-header">
 		<tr><th class="informasi-header-isi">Gelombang Pendaftaran Acara IHSAO 2019</th></tr>
 		</table>
@@ -81,6 +81,50 @@
 		<tr><th class="informasi-isi-isi"><b>Debat </b><br>Rp.270.000 (Penginapan)<br>Rp.250.000 (Tanpa Penginapan)</th><th class="informasi-isi-isi"><b>Cerdas Cermat </b><br>Rp.300.000 (Penginapan)<br>Rp.280.000 (Tanpa Penginapan)</th></tr>
 		<tr><th class="informasi-isi-isi"><b>Karya Ilmiah </b><br>Rp.250.000 (Tanpa Penginapan)</th><th class="informasi-isi-isi"><b>Karya Ilmiah </b><br>Rp.250.000 (Tanpa Penginapan)</th></tr>
 		</table>
+		<br><br><br>
+		
+		<!-- Tata Cara Pendaftaran 
+		<table class="informasi-header">
+		<tr><th class="informasi-header-isi">Tata Cara Pendaftaran IHSAO 2019</th></tr>
+		</table>
+		<table class="informasi-alur">
+		<tr>
+		<th class="informasi-alur-alur1"><span class="glyphicon glyphicon-pencil" style="font-size:12px; color:#292929"></span>Login website ihsao.pcr.ac.id
+		<br><span class="glyphicon glyphicon-pencil" style="font-size:12px; color:#292929"></span>Pilih menu pendaftaran
+		<br><span class="glyphicon glyphicon-pencil" style="font-size:12px; color:#292929"></span>Mengisi dan melengkapi formulir pendaftaran online
+		<br><span class="glyphicon glyphicon-pencil" style="font-size:12px; color:#292929"></span>Calon peserta membayar sejumlah uang pendaftaran sesuai periode pendaftaran.
+																								  Pembayaran pendaftaran IHSAO 2019 dapat dilakukan melalui rekening :
+																								  BCA Panin No. rek: 003-0342956295 atas nama Grace
+		<br><span class="glyphicon glyphicon-pencil" style="font-size:12px; color:#292929"></span>Calon peserta memberikan bukti berupa foto atau scan pembayaran yang telah dilakukan
+																								  melalui banking.
+		<br><span class="glyphicon glyphicon-pencil" style="font-size:12px; color:#292929"></span>Calon peserta membawa fotocopy kartu pelajar (2 lembar) dan pas photo 3x4 (2 Lembar) ketika TM (Technical Meeting) berlangsung.
+		</th>
+		<th class="informasi-alur-alur2">Gelombang II
+		<br>20 Juni 2019 - 1 Juli 2019
+		</th></tr>
+		</table>
+		-->
+		
+		<!-- Peraturan Umum -->
+		<table class="informasi-header">
+		<tr><th class="informasi-header-isi">Peraturan Umum</th></tr>
+		</table>
+		<table class="informasi-umum">
+		
+		<tr><th class="informasi-umum-isi">Peserta ujian menaati peraturan yang ditetapkan oleh panitia ujian.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta hadir 15 menit sebelum ujian atau acara dimulai.</th></tr>
+		<tr><th class="informasi-umum-isi">Tidak ada tambahan waktu untuk peserta yang terlambat.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta wajib memakai seragam sekolah.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta wajib menggunakan nametag saat perlombaan berlangsung.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta dilarang mencontek dan memberikan contekan.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta tidak diperbolehkan membawa peralatan atau alat bantu apapun kecuali kalkulator.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta hanya diperbolehkan menggunakan perlengkapan yang disediakan oleh panitia.</th></tr>
+		<tr><th class="informasi-umum-isi">Dilarang merokok dan membuang sampah sembarangan di area kampus Politeknik Caltex Riau.</th></tr>
+		
+		</table>
+		
+		
+		
 		<br><br><br>
 	</div>
 

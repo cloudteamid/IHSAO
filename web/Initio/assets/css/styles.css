@@ -257,6 +257,7 @@ a:hover {
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
 }
+
 #head .title {
   font-family: roboto;
   font-size: 49px;
@@ -306,6 +307,7 @@ a:hover {
 img {
   max-width: 100%;
 }
+
 .btn {
   font-size: 12px;
   font-size: 0.75rem;
@@ -529,8 +531,19 @@ table.informasi-header{
 
 }
 
-.informasi-isi{
+table.alur{
+}
 	
+
+.informasi-isi{
+	box-shadow: -3px 3px 2px rgba(0,0,0,0.5);
+}
+
+.informasi-alur{
+	box-shadow: -3px 3px 2px rgba(0,0,0,0.5);
+}
+
+.informasi-umum{
 	box-shadow: -3px 3px 2px rgba(0,0,0,0.5);
 }
 
@@ -560,6 +573,45 @@ th, td {
 
 .informasi-isi tr:nth-child(even) {
     background-color: #edc139;
+}
+
+.informasi-alur-alur1{
+	text-align : left;
+	padding : 25px;
+	font-weight : normal;
+	padding : 5px;
+	background-color : #edc139;
+}
+
+.informasi-alur-alur2{
+	text-align : left;
+	padding : 25px;
+	font-weight : normal;
+	padding : 5px;
+	color : white;
+	background-color : #292929;
+}
+
+.informasi-alur2{
+	text-align : center;
+	padding : 25px;
+	font-weight : normal;
+	padding : 5px;
+	background-color : #292929;
+}
+
+.informasi-umum-isi{
+	border-top :2px solid white;
+	text-align : left;
+	font-weight : normal;
+	padding : 15px;
+	color : white;
+	background-color : #292929;
+}
+
+.informasi-umum-isi:hover{
+	color : #292929;
+	background-color : #edc139;
 }
 
 .section-title,
