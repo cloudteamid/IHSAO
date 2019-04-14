@@ -69,7 +69,7 @@
 		</div> 
 		<hr class="hr-style1">
 		
-		<!-- OPSI 1 -->
+		<!-- Gelombang Pendaftaran -->
 		<table class="informasi-header">
 		<tr><th class="informasi-header-isi">Gelombang Pendaftaran Acara IHSAO 2019</th></tr>
 		</table>
@@ -81,6 +81,28 @@
 		<tr><th class="informasi-isi-isi"><b>Debat </b><br>Rp.270.000 (Penginapan)<br>Rp.250.000 (Tanpa Penginapan)</th><th class="informasi-isi-isi"><b>Cerdas Cermat </b><br>Rp.300.000 (Penginapan)<br>Rp.280.000 (Tanpa Penginapan)</th></tr>
 		<tr><th class="informasi-isi-isi"><b>Karya Ilmiah </b><br>Rp.250.000 (Tanpa Penginapan)</th><th class="informasi-isi-isi"><b>Karya Ilmiah </b><br>Rp.250.000 (Tanpa Penginapan)</th></tr>
 		</table>
+		<br><br><br>
+		
+		<!-- Peraturan Umum -->
+		<table class="informasi-header">
+		<tr><th class="informasi-header-isi">Peraturan Umum</th></tr>
+		</table>
+		<table class="informasi-umum">
+		
+		<tr><th class="informasi-umum-isi">Peserta ujian menaati peraturan yang ditetapkan oleh panitia ujian.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta hadir 15 menit sebelum ujian atau acara dimulai.</th></tr>
+		<tr><th class="informasi-umum-isi">Tidak ada tambahan waktu untuk peserta yang terlambat.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta wajib memakai seragam sekolah.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta wajib menggunakan nametag saat perlombaan berlangsung.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta dilarang mencontek dan memberikan contekan.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta tidak diperbolehkan membawa peralatan atau alat bantu apapun kecuali kalkulator.</th></tr>
+		<tr><th class="informasi-umum-isi">Peserta hanya diperbolehkan menggunakan perlengkapan yang disediakan oleh panitia.</th></tr>
+		<tr><th class="informasi-umum-isi">Dilarang merokok dan membuang sampah sembarangan di area kampus Politeknik Caltex Riau.</th></tr>
+		
+		</table>
+		
+		
+		
 		<br><br><br>
 	</div>
 
