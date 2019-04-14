@@ -12,7 +12,7 @@
 	
 	<!-- Bootstrap -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icon font -->
+	<!-- Icons -->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<!-- Fonts -->
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
@@ -21,18 +21,19 @@
 
 	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
-<body>
+<body class="home">
 
 <header id="header">
-	<div id="head" class="parallax" parallax-speed="1">
+	<div id="head" class="parallax" parallax-speed="2">
+
 		<h1 id="logo" class="text-center">
-			<span class="title">IHSAO 2019</span>
-			<span class="tagline">List Peserta<br></span>
-				<!-- <a href="">anthony.russel42@example.com</a></span> -->
+			<img class="img-circle" src="assets/images/guy.jpg" alt="">
+			<span class="title">INFORMASI PESERTA</span>
+			<span class="tagline">Life is like an accounting, happiness credits and sorrows always debits<br></span> 
 		</h1>
 	</div>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-sticky">
 		<div class="container-fluid">
 			
 			<div class="navbar-header">
@@ -63,7 +64,7 @@
 			<aside class="col-sm-4 sidebar sidebar-right">
 
 				<ul class="nav text-right nav-side">
-					<li class="active"><!-- <a href="#ui"> -->List Peserta<!-- </a> --></li>
+					<li class="active"><!-- <a href="#ui"> -->Informasi Peserta<!-- </a> --></li>
 					<!-- <li><a href="#frontend">Frontend development</a></li>
 					<li><a href="#backend">Backend development</a></li>
 					<li><a href="#projects">Side projects</a></li> -->
@@ -124,7 +125,7 @@
 			<div class="col-md-3 widget">
 				<h3 class="widget-title">Informasi</h3>
 				<div class="widget-body">
-					<a href=""><p>Pendaftaran</p>
+					<a href="informasi.php"><p>Pendaftaran</p>
 				</div>
 			</div>
 
