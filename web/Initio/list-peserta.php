@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>IHSAO - List Peserta</title>
+	<title>Inter High School Accounting Olympiad - Politeknik Caltex Riau</title>
 
 	<link rel="icon" type="images/png" href="assets/images/icon.png">
 	
@@ -42,18 +42,10 @@
 			<div class="navbar-collapse collapse">
 				
  				<ul class="nav navbar-nav">
-					<li><a href="index.html">Beranda</a></li>
-					<li><a href="about.html">About</a></li>
+					<li><a href="index.php">Beranda</a></li>
+					<li><a href="informasi.php">About</a></li>
 					<li class="active"><a href="list-peserta.php">Peserta</a></li>
-		<!-- 			<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="single.html">Blog Post</a></li>
-						</ul>
-					</li> -->
-					<li><a href="blog.html">Pendaftaran</a></li>
+					<li><a href="pendaftaran.php">Pendaftaran</a></li>
 				</ul>
 			
 			</div><!--/.nav-collapse -->			

@@ -12,7 +12,7 @@
 	
 	<!-- Bootstrap -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icons -->
+	<!-- Icon font -->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<!-- Fonts -->
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
@@ -21,16 +21,14 @@
 
 	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
-<body class="home">
+<body>
 
 <header id="header">
-	<div id="head" class="parallax" parallax-speed="2">
-
+	<div id="head3">
 		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/guy.jpg" alt="">
-			<span class="title">INFORMASI IHSAO</span>
-			<span class="tagline">Life is like an accounting, happiness credits and sorrows always debits<br></span> 
+			<span class="title">INFORMASI CABANG LOMBA</span>
 		</h1>
+		
 	</div>
 
 	<nav class="navbar navbar-default navbar-sticky">
@@ -43,18 +41,10 @@
 			<div class="navbar-collapse collapse">
 				
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Beranda</a></li>
-					<li><a href="about.html">About</a></li>
+					<<li><a href="index.php">Beranda</a></li>
+					<li><a href="informasi.php">About</a></li>
 					<li><a href="list-peserta.php">Peserta</a></li>
-<!-- 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="single.html">Blog Post</a></li>
-						</ul>
-					</li> -->
-					<li><a href="blog.html">Pendaftaran</a></li>
+					<li><a href="pendaftaran.php">Pendaftaran</a></li>
 				</ul>
 			
 			</div><!--/.nav-collapse -->			
@@ -65,15 +55,12 @@
 <main id="main">
 
 	<div class="container">
-		<h2 class="section-title2"><span>Informasi Umum Acara</span></h2>
+		<h2 class="section-title2"><span>CERDAS CERMAT</span></h2>
 		<div class="row section topspace">
 			<div class="col-md-12">
-				<p class="lead text-center">Agar peserta dapat mengkompetisikan kemampuannya, peserta juga akan memiliki niat dan pandangan
-				untuk menjadi generasi akuntansi yang gemilang. Peserta juga akan menunjukkan dan
-				mengkompetisikan kemampuannya dibidang akuntansi baik dalam teori maupun praktik, peserta juga
-				nantinya dapat menganalisis akuntansi di era kini, meningkatkan kemampuan intelektual dan
-				pengaplikasiannya dalam kehidupan nyata, serta meningkatkan kualitas dan kemampuan siswa- siswi
-				dalam memecahkan masalah-masalah akuntansi.</p>
+				<p class="lead text-center">Lomba cerdas cermat yaitu lomba dimana terdiri dari masing-masing perwakilan sekolah yaitu 1
+				regu. 1 regu terdiri dari 3 orang peserta. Dilomba ini ada beberapa tim yang akan bertanding adu
+				ketajaman berpikir dan ketangkasan menjawab pertanyaan secara cepat dan tepat. </p>
 			</div>
 		</div> 
 		<hr class="hr-style1">
@@ -182,7 +169,7 @@
 
 <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="assets/js/template.js"></script>
 </body>
 </html>

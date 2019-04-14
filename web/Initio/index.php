@@ -43,18 +43,10 @@
 			<div class="navbar-collapse collapse">
 				
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Beranda</a></li>
-					<li><a href="about.html">About</a></li>
+					<li class="active"><a href="index.php">Beranda</a></li>
+					<li><a href="informasi.php">About</a></li>
 					<li><a href="list-peserta.php">Peserta</a></li>
-<!-- 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="single.html">Blog Post</a></li>
-						</ul>
-					</li> -->
-					<li><a href="blog.html">Pendaftaran</a></li>
+					<li><a href="pendaftaran.php">Pendaftaran</a></li>
 				</ul>
 			
 			</div><!--/.nav-collapse -->			
@@ -110,7 +102,7 @@
 			<div class="thumbnails recentworks row">
 				
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
+					<a class="thumbnail" href="cerdascermat.php">
 						<span class="img">
 							<img src="assets/images/ss1.png" alt="">
 							<span class="cover"><span class="more">Selengkapnya &rarr;</span></span>
@@ -122,7 +114,7 @@
 				</div>
 				
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
+					<a class="thumbnail" href="olimpiade.php">
 						<span class="img">
 							<img src="assets/images/ss2.png" alt="">
 							<span class="cover"><span class="more">Selengkapnya &rarr;</span></span>
@@ -134,7 +126,7 @@
 				</div>
 				
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
+					<a class="thumbnail" href="myob.php">
 						<span class="img">
 							<img src="assets/images/ss4.png" alt="">
 							<span class="cover"><span class="more">Selengkapnya &rarr;</span></span>
@@ -146,7 +138,7 @@
 				</div>
 				<center></center>
 				<div class="col-sm-12 col-md-4 col-lg-4 col-md-offset-2">
-					<a class="thumbnail" href="sidebar-right.html">
+					<a class="thumbnail" href="debat.php">
 						<span class="img">
 							<img src="assets/images/ss3.png" alt="">
 							<span class="cover"><span class="more">Selengkapnya &rarr;</span></span>
@@ -157,7 +149,7 @@
 					<p></p>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
+					<a class="thumbnail" href="karyailmiah.php">
 						<span class="img">
 							<img src="assets/images/ss5.png" alt="">
 							<span class="cover"><span class="more">Selengkapnya &rarr;</span></span>
