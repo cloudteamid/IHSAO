@@ -4,7 +4,7 @@ html {
 body {
   font-size: 15px;
   font-size: 0.9375rem;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-family: "Open sans", Helvetica, Arial, sans-serif, proxima_nova_altblack;
   color: #666666;
   padding: 0;
 }
@@ -19,7 +19,7 @@ body {
 
 **********************************************************************/
 .navbar {
-  border-width: 1px 0;
+  border-width:  0 0 1px 0 ;
   -webkit-border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 0;
@@ -201,6 +201,7 @@ a:hover {
   font-weight: 300;
   font-size: 21px;
   font-size: 1.3125rem;
+  color : #292929;
 }
 .text-msg {
   line-height: 1.7em;
@@ -230,6 +231,20 @@ a:hover {
   color: #7C7C7C;
   padding: 30px 0 35px 0;
 }
+#head2 {
+  background: #f4f4f4 url(../images/bg_head6.jpg) top center;
+  background-size: cover;
+  color: #7C7C7C;
+  padding: 30px 0 35px 0;
+}
+
+#head3 {
+  background: #f4f4f4 url(../images/bg_head_cabang3.jpg) top center;
+  background-size: cover;
+  color: #7C7C7C;
+  padding: 30px 0 35px 0;
+}
+
 #head img.img-circle {
   display: block;
   width: 200px;
@@ -239,7 +254,7 @@ a:hover {
   margin: 0 auto;
 }
 #head .title {
-  font-family: roboto;
+  font-family: Bookman;
   font-size: 49px;
   font-size: 3.0625rem;
   color: #000000;
@@ -268,12 +283,15 @@ a:hover {
 .home #head .title {
   font-size: 49px;
   font-size: 3.0625rem;
+  font-weight : bold;
 }
 .home #head .tagline {
   font-size: 18px;
   margin: 15px 0 0;
   font-style: italic;
 }
+
+
 /*********************************************************************
 
 
@@ -423,7 +441,6 @@ img {
   opacity: 0;
   width: 100%;
   height: 180px;
-  background-color: rgba(255, 255, 255, 0.8);
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -451,7 +468,7 @@ img {
   font-size: 0.75rem;
   text-transform: uppercase;
   text-shadow: 0 1px 0px #780d33;
-  background: #bd1550;
+  background: #292929;
   color: white;
 }
 .thumbnail img {
@@ -461,7 +478,7 @@ img {
   left: 0;
 }
 .thumbnail:hover {
-  color: #333;
+  color: #292929;
   text-decoration: none;
 }
 .thumbnail:hover img {
@@ -497,6 +514,21 @@ img {
 
 
 **********************************************************************/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 6px;
+  text-align: left;
+  font-family: "Latha";
+  font-size: 17px;
+  letter-spacing: 1px;
+  color : #292929;
+  font-weight : normal;
+}
+
 .section-title,
 .entry-title {
   display: block;
@@ -510,6 +542,66 @@ img {
   font-size: 2.25rem;
   letter-spacing: 1px;
 }
+
+.section-title2{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Roboto";
+  margin: 25px 0 0 0;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.section-title3{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Latha";
+  margin: 50px 0 0 0;
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.section-title4{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Latha";
+  margin: 15px 0 0 0;
+  text-align: left;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  letter-spacing: 0.2px;
+}
+
+.hr-style1 {
+	border: 0;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(234,195,56,1), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(234,195,56,1), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(234,195,56,1), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(234,195,56,1), rgba(0,0,0,0));
+}
+
+.hr-style2 {
+    border: 0;
+    height: 3px;
+    background: #e6eaef;
+}
+
+.hr-style3 {
+	border: 0;
+    height: 3px;
+    background: #e6eaef;
+}
+
 .section-title a,
 .entry-title a {
   color: #333333;
@@ -528,8 +620,8 @@ img {
   height: 4px;
   top: .53em;
   width: 400%;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #eac338;
+  border-top: 1px solid #eac338;
 }
 .section-title span:before,
 .entry-title span:before {
