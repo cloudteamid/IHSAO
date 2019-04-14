@@ -37,7 +37,7 @@
 	<div id="head" class="parallax" parallax-speed="1">
 		<h1 id="logo" class="text-center">
 			<img class="img-circle" src="assets/images/guy.jpg" alt="">
-			<span class="title">Pendaftaran IHSAO</span>
+			<span class="title">PENDAFTARAN IHSAO</span>
 			<span class="tagline">Compete Your Skill to be a Brilliant Accounting Generation</span>
 		</h1>
 	</div>
@@ -175,11 +175,7 @@
 			<div class="col-md-6 widget">
 				<div class="widget-body">
 					<p class="text-right">
-<<<<<<< HEAD:web/Initio/blog.html
-						Copyright &copy; 2019, cloudbeTeam<br> 
-=======
 						&copy; IHSAO 2019 - Politeknik Caltex Riau by CloudTeamID<br> 
->>>>>>> fbe4645f279d919851b845700937647d3478078f:web/Initio/pendaftaran.php
 				</div>
 			</div>
 
