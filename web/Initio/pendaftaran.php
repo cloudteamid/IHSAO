@@ -6,11 +6,10 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-<<<<<<< HEAD:web/Initio/blog.html
+
 	<title>Pendaftaran IHSAO</title>
-=======
 	<title>Inter High School Accounting Olympiad - Politeknik Caltex Riau</title>
->>>>>>> fbe4645f279d919851b845700937647d3478078f:web/Initio/pendaftaran.php
+
 
 	<link rel="icon" type="images/png" href="assets/images/icon.png">
 	
@@ -69,6 +68,7 @@
 			<div class="pendaftaran">
 				<form action="Pendaftaran">
 					<h3>Pendaftaran</h3>
+				<div class="tengah">
 					<div class="form-rowp">
 						<div class="form-wrapperp">
 							<label for="">Name Sekolah</label>
@@ -107,11 +107,12 @@
 							<input type="text" class="form-control" placeholder="Nama Tim">
 						</div>
 					</div>
+				</div>
 				<center>
 					<button class="pendaftaran" data-text="Daftar">
 						<span>Daftar</span>
 					</button>
-				</center>>
+				</center>
 				</form>
 			</div>
 </main>

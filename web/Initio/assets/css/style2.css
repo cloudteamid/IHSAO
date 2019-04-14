@@ -83,16 +83,19 @@ h3 {
   font-weight: 500; }
 
 .form-rowp {
+  margin-left: 18%;
   display: flex;
+}
   margin-bottom: 25px; }
   .form-rowp.lastp {
     margin-bottom: 22px; }
   .form-rowp .form-wrapperp{
-    width: 30%; }
+    width: 40%; }
     .form-rowp .form-wrapperp:first-child {
       margin-right: 25px; }
 
 .form-wrapperp {
+  margin-top: 22px;
   position: relative;
    }
   .form-wrapperp label {
@@ -238,6 +241,9 @@ button.pendaftaran {
       .form-row .form-wrapper:first-child {
         margin-right: 0; } }
 
-
+  .tengah{
+    margin-right: 25%;
+    margin-left: 25%;
+  }
 
 /*# sourceMappingURL=style.css.map */
