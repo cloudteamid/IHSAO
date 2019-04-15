@@ -6,39 +6,30 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-
-	<title>Pendaftaran IHSAO</title>
 	<title>Inter High School Accounting Olympiad - Politeknik Caltex Riau</title>
-
 
 	<link rel="icon" type="images/png" href="assets/images/icon.png">
 	
 	<!-- Bootstrap -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icon font -->
+	<!-- Icons -->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<!-- Fonts -->
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="assets/css/styles.css">
-	<link rel="stylesheet" href="assets/css/style2.css">
-	<!-- Vendor -->
-	<link rel="stylesheet" href="assets/vendor/date-picker/css/datepicker.min.css">
-	<!-- MATERIAL DESIGN ICONIC FONT -->
-	<link rel="stylesheet" href="assets/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
-	<!-- LINEARICONS -->
-	<link rel="stylesheet" href="assets/fonts/linearicons/style2.css">
 
 	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
-<body>
+<body class="home">
 
 <header id="header">
-	<div id="head" class="parallax" parallax-speed="1">
+	<div id="head" class="parallax" parallax-speed="2">
+
 		<h1 id="logo" class="text-center">
 			<img class="img-circle" src="assets/images/guy.jpg" alt="">
-			<span class="title">PENDAFTARAN IHSAO</span>
-			<span class="tagline">Compete Your Skill to be a Brilliant Accounting Generation</span>
+			<span class="title">PENDAFTARAN</span>
+			<span class="tagline">Life is like an accounting, happiness credits and sorrows always debits<br></span> 
 		</h1>
 	</div>
 
@@ -55,68 +46,89 @@
 					<li><a href="index.php">Beranda</a></li>
 					<li><a href="informasi.php">About</a></li>
 					<li><a href="list-peserta.php">Peserta</a></li>
-					<li class="active"><a href="pendaftaran.php">Pendaftaran</a></li>
-				</ul>
+					<li  class="active"><a href="pendaftaran.php">Pendaftaran</a></li>
 			
 			</div><!--/.nav-collapse -->			
 		</div>	
 	</nav>
 </header>
 
-
 <main id="main">
-			<div class="pendaftaran">
-				<form action="Pendaftaran">
-					<h3>Pendaftaran</h3>
-				<div class="tengah">
-					<div class="form-rowp">
-						<div class="form-wrapperp">
-							<label for="">Name Sekolah</label>
-							<input type="text" class="form-control" placeholder="Nama Sekolah">
-						</div>
-						<div class="form-wrapperp">
-							<label for="">Alamat Sekolah</label>
-							<input type="text" class="form-control" placeholder="Alamat Sekolah">
-						</div>
-					</div>
-					<div class="form-rowp">
-						<div class="form-wrapperp">
-							<label for="">Nama Pembina</label>
-							<input type="text" class="form-control" placeholder="Nama Pembina">
-						</div>
-						<div class="form-wrapperp">
-							<label for="">No HP</label>
-							<input type="text" class="form-control" placeholder="No HP">
-						</div>
-					</div>
-					<div class="form-rowp lastp">
-						<div class="form-wrapperp">
-							<label for="">Cabang Perlombaan</label>
-							<select name="" id="" class="form-controlp">
-								<option value="c1">CERDAS-CERMAT</option>
-								<option value="c2">MYOB</option>
-								<option value="c3">OLIMPIADE</option>
-								<option value="c4">DEBAT</option>
-								<option value="c5">KARYA ILMIAH</option>
-								
-							</select>
-							<i class="zmdi zmdi-chevron-downp"></i>
-						</div>
-						<div class="form-wrapperp">
-							<label for="">Nama Tim</label>
-							<input type="text" class="form-control" placeholder="Nama Tim">
-						</div>
-					</div>
-				</div>
-				<center>
-					<button class="pendaftaran" data-text="Daftar">
-						<span>Daftar</span>
-					</button>
-				</center>
-				</form>
-			</div>
-</main>
 
+	<div class="container-pendaftaran">
+		<h2 class="section-title2"><span>Form Registrasi</span></h2>
+		<hr class="hr-style1">
+		
+		<!-- Form Pendaftaran Umum -->
+		<form>
+		<table class="table-pendaftaran">
+			<tr>
+				<th class="table-pendaftaran-siswa2">Data Sekolah</th>
+				<th class="table-pendaftaran-siswa2">Data Pembimbing</th>
+				<th class="table-pendaftaran-siswa2">Cabang Lomba</th>
+		    </tr>
+			<tr>
+				<th class="table-pendaftaran-isi"><input type="text" class="form-atur" placeholder="Nama Sekolah"></th>
+				<th class="table-pendaftaran-isi"><input type="text" class="form-atur" placeholder="Nama Pembimbing"></th>
+				<th class="table-pendaftaran-isi"><select name="" id="" class="form-atur-combobox">
+													<option value="c0" class="cb-v">--Silahkan Pilih Perlombaan</option>
+													<option value="c1" class="cb-v">Cerdas Cermat</option>
+													<option value="c2" class="cb-v">Olimpiade</option>
+													<option value="c3" class="cb-v">Myob</option>
+													<option value="c4" class="cb-v">Debat</option>
+													<option value="c5" class="cb-v">Karya Ilmiah</option>
+											      </select></th>
+		    </tr>
+			<tr>
+				<th class="table-pendaftaran-isi"><input type="text" class="form-atur" placeholder="Alamat Sekolah"></th>
+				<th class="table-pendaftaran-isi"><input type="text" class="form-atur" placeholder="NIP"></th>
+				<th class="table-pendaftaran-isi"></th>
+		    </tr>
+			<tr>
+				<th class="table-pendaftaran-isi"><input type="text" class="form-atur" placeholder="No Telp Sekolah"></th>
+				<th class="table-pendaftaran-isi"><input type="text" class="form-atur" placeholder="No Telp Pembimbing"></th>
+				<th class="table-pendaftaran-isi"></th>
+		    </tr>
+		</table>
+		<br><br>
+		<!-- Form Pendaftaran Siswa -->
+		<table>
+			<tr>
+				<th class="table-pendaftaran-siswa2">Biodata Peserta 1</th>
+				<th class="table-pendaftaran-siswa2">Biodata Peserta 2</th>
+				<th class="table-pendaftaran-siswa2">Biodata Peserta 3</th>
+			</tr>
+			<tr>
+				<th class="table-pendaftaran-siswa"> Nama Calon Peserta<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+				<th class="table-pendaftaran-siswa"> Nama Calon Peserta<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+				<th class="table-pendaftaran-siswa"> Nama Calon Peserta<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+			</tr>
+			<tr>
+				<th class="table-pendaftaran-siswa"> Kelas<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+				<th class="table-pendaftaran-siswa"> Kelas<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+				<th class="table-pendaftaran-siswa"> Kelas<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+			</tr>
+			<tr>
+				<th class="table-pendaftaran-siswa"> Alamat<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+				<th class="table-pendaftaran-siswa"> Alamat<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+				<th class="table-pendaftaran-siswa"> Alamat<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+			</tr>
+			<tr>
+				<th class="table-pendaftaran-siswa"> No Hp<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+				<th class="table-pendaftaran-siswa"> No Hp<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+				<th class="table-pendaftaran-siswa"> No Hp<br><input type="text" class="form-atur-2" placeholder="Ketik Disini.."></th>
+			</tr>
+			<tr>
+				<th class="table-pendaftaran-siswa"></th>
+				<th class="table-pendaftaran-siswa"></th>
+				<th class="table-pendaftaran-siswa"><button class="button-daftar" data-text="Daftar">DAFTAR</button></th>
+			</tr>
+		</table>
+		</form>
+		<br><br><br>
+	</div>
+
+</main>
 
 <footer id="footer">
 	<div class="container">
@@ -125,10 +137,7 @@
 				<h3 class="widget-title">KONTAK</h3>
 				<div class="widget-body">
 					<p>+085278037498<br>
-						<span class="glyphicon glyphicon-envelope"> <br></span><a href="mailto:#">ihsao@pcr.ac.id</a><br>
-
-						<br>
-						Politeknik Caltex Riau
+						<span class="glyphicon glyphicon-envelope"> <br></span><a href="mailto:ihsao@pcr.ac.id">ihsao@pcr.ac.id</a><br>
 					</p>	
 				</div>
 			</div>
@@ -139,6 +148,7 @@
 					<p class="follow-me-icons">
 						<a href="https://www.instagram.com/ihsao2019/"><i class="fa fa-instagram fa-2"></i></a>
 					</p>
+					<a href="https://www.instagram.com/ihsao2019/"><p>ihsao2019</p>
 				</div>
 			</div>
 
@@ -150,10 +160,9 @@
 			</div>
 
 			<div class="col-md-3 widget">
-				<h3 class="widget-title">Form widget</h3>
+				<h3 class="widget-title">Lokasi</h3>
 				<div class="widget-body">
-					<p>+234 23 9873237<br>
-						<a href="mailto:#">some.email@somewhere.com</a><br>
+						<a href="https://goo.gl/maps/AJd4c9cBbZT2">Politeknik Caltex Riau</a><br>
 						<br>
 					</p>	
 				</div>
@@ -184,9 +193,10 @@
 </footer>
 
 
+
 <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="http://netdna.bootstrapootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="assets/js/template.js"></script>
 </body>
 </html>
