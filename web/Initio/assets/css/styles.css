@@ -234,14 +234,7 @@ a:hover {
   padding: 30px 0 35px 0;
 }
 #head2 {
-  background: #f4f4f4 url(../images/bg_head6.jpg) top center;
-  background-size: cover;
-  color: #7C7C7C;
-  padding: 30px 0 35px 0;
-}
-
-#head3 {
-  background: #f4f4f4 url(../images/bg_head_cabang3.jpg) top center;
+  background: #f4f4f4 url(../images/bg_head.jpg) top center;
   background-size: cover;
   color: #7C7C7C;
   padding: 30px 0 35px 0;
@@ -293,6 +286,53 @@ a:hover {
   font-weight : bold;
 }
 .home #head .tagline {
+  font-size: 18px;
+  margin: 15px 0 0;
+  font-style: italic;
+}
+
+#head2 img.img-circle {
+  display: block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 9px solid rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+}
+
+#head2 .title {
+  font-family: roboto;
+  font-size: 49px;
+  font-size: 3.0625rem;
+  color: #000000;
+}
+#head2 .title a {
+  text-decoration: none;
+  color: #333333;
+}
+#head2 .tagline {
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  color: #000000;
+  margin: 5px 0 0;
+}
+#head2 .tagline b {
+  font-weight: normal;
+}
+#head2 .tagline a {
+  color: #5E5E5E;
+}
+.home #head2 {
+  padding: 90px 0;
+}
+.home #head2 .title {
+  font-size: 49px;
+  font-size: 3.0625rem;
+  font-weight : bold;
+}
+.home #head2 .tagline {
   font-size: 18px;
   margin: 15px 0 0;
   font-style: italic;
@@ -1005,7 +1045,9 @@ footer.entry-meta .meta-in {
 #footer {
   background: #232323;
   padding: 30px 0 0 0;
-  font-size: 12px;
+  font-size: 18px;
+  font-family : "Latha";
+  font-weight : bold;
   color: #999;
 }
 #footer a {
@@ -1015,17 +1057,18 @@ footer.entry-meta .meta-in {
   color: #fff;
 }
 #footer h3.widget-title {
-  font-size: 15px;
-  font-size: 0.9375rem;
+  font-size: 20px;
   text-transform: uppercase;
-  color: #ccc;
-  margin: 0 0 20px;
+  color: white;
+  margin: 0 0 20px 0;
+  text-align : center;
+  font-family : "Proxima Nova";
 }
 #underfooter {
   background: #191919;
   padding: 15px 0;
   color: #777;
-  font-size: 12px;
+  font-size: 15px;
 }
 #underfooter a {
   color: #aaa;
@@ -1043,11 +1086,81 @@ footer.entry-meta .meta-in {
   float: left;
   margin: 0 10px 0 0;
 }
+
+.img-footer {
+  display: block;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.a-sosmed{
+	text-decoration : none;
+	color : white;
+	font-weight : bold;
+}
+
+.social-media-button.icon:before {
+	font-family: "Ionicons";
+	padding-right: 0.5em;
+}
+
+.social-media-button {
+	border: none;
+	color: #FFFFFF;      /* WHITE */
+	font-size: 18px;
+	font-family : "Latha";
+	padding: 10px 13px;
+	margin : 0 0 15px 0;
+	
+}
+
+.social-media-button:hover {
+	opacity: 0.9;
+}
+
+.social-media-button.ion-logo-instagram {
+	width : 180px;
+	height : 50px;
+	background: #e1405f;
+	text-decoration : none;
+	color : white;
+}
+/* WHATSAPP */
+.social-media-button.ion-logo-whatsapp{
+	width : 180px;
+	height : 50px;
+	background: #43d854;
+}
+/* WORDPRESS */
+.social-media-button.ion-md-mail {
+	width : 180px;
+	height : 50px;
+	background: #21759b;
+}
+
+.widget-body-kontak{
+	font-size : 18px;
+	font-family : "Proxima Nova";
+	color : white;
+	font-weight : normal;
+	text-align : center;
+	padding-top : 30px;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1200px) {
   .container {
     max-width: 1080px;
+  }
+  
+  .container2 {
+	  padding : 30px 50px 30px 120px;
+	  
   }
   
   .container-pendaftaran {
