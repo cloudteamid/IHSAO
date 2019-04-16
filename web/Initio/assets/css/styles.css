@@ -19,7 +19,7 @@ body {
 
 **********************************************************************/
 .navbar {
-  border-width:  0 0 1px 0 ;
+  border-width:  0 0 0 0 ;
   -webkit-border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 0;
@@ -33,7 +33,6 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: .85;
   background-color : #edc139;
 }
 .navbar-collapse {
@@ -67,8 +66,7 @@ body {
   padding: 5px 30px;
 }
 .navbar-default {
-  background-color: #ffffff;
-  border-color: #cccccc;
+  background-color : #edc139;
   font-weight : bold;
 }
 .navbar-default .navbar-nav > li > a {
@@ -230,7 +228,7 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background: #f4f4f4 url(../images/bg_head.jpg) top center;
+  background: #f4f4f4 url(../images/bg_head9.jpg) top center;
   background-size: cover;
   color: #7C7C7C;
   padding: 30px 0 35px 0;
@@ -256,6 +254,10 @@ a:hover {
   overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
+}
+
+.spasi{
+	margin : 0 0 500px 0
 }
 
 #head .title {
