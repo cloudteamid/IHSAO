@@ -45,8 +45,8 @@
 				
 				<ul class="nav navbar-nav">
 					<li><a href="index.php">Beranda</a></li>
-					<li class="active"><a href="informasi.php">Informasi</a></li>
-					<li><a href="list-peserta.php">Peserta</a></li>
+					<li><a href="informasi.php">Informasi</a></li>
+					<li  class="active"><a href="list-peserta.php">Peserta</a></li>
 					<li><a href="pendaftaran.php">Pendaftaran</a></li>
 			
 			</div><!--/.nav-collapse -->			

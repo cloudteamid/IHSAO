@@ -190,7 +190,7 @@
 				<div class="widget-title">
 					<center>
 					<button type="button" class="social-media-button icon ion-logo-instagram"><a class="a-sosmed" href="https://www.instagram.com/ihsao2019/">Instagram</a></button>
-					<button type="button" class="social-media-button icon ion-logo-whatsapp"><a  class="a-sosmed" href="https://www.instagram.com/ihsao2019/">Whatsapp</a></button>
+					<button type="button" class="social-media-button icon ion-logo-whatsapp"><a  class="a-sosmed" href="https://api.whatsapp.com/send?phone=6285278037498&">Whatsapp</a></button>
 					<button type="button" class="social-media-button icon ion-md-mail"><a  class="a-sosmed" href="https://www.instagram.com/ihsao2019/">Email</a></button>
 					</center>
 				</div>
