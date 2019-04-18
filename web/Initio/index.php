@@ -18,9 +18,10 @@
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animasi.css">
 	<!-- Ionic Icon -->
 	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-	<link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+	<link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">	
 	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
 <body class="home">
@@ -55,12 +56,21 @@
 
 	<div class="container">
 		
-		<div class="row section topspace">
+		<div class="row section">
 			<div class="col-md-12">
-				<p class="lead text-center text-muted">Inter High School Olympiad (IHSAO) merupakan ajang adu ketangkasan
-				intelektual dalam ilmu Akuntansi bagi pelajar SMA dan SMK se-Sumatera</a> Inter High School Accounting Olympiad (IHSAO) adalah olimpiade Akuntansi tingkat SMA dan SMK se-
-				Sumatera. IHSAO terbagi menjadi dua kategori yaitu tingkat SMA dan SMK. Dalam IHSAO ada beberapa
-				kategori yaitu Olimpiade dan Cerdas Cermat. </p>
+				<p class="lead2 text-center text-muted">IHSAO Hadir Kembali !</p>
+			</div>
+			<h1 class="animated infinite pulse"><img class="img-home" src="assets/images/guy5.png" alt=""></h1>
+			<div class="col-md-12">
+				<p class="lead text-center text-muted"><b>Inter High School Accounting Olympiad (IHSAO)</b> adalah sebuah acara dimana para pelajar SMA
+				dan SMK dapat menunjukkan kemampuannya dalam bidang Akuntansi dan sebagai barometer bagi para
+				pelajar SMA dan SMK di Pulau Sumatera dalam menguasai dan menerapkan ilmu Akuntansi. Acara ini
+				diharapkan dapat memotivasi para pelajar untuk melanjutkan jenjang pendidikan dalam program
+				Akuntansi. </p>
+				<p class="lead text-center text-muted">Dengan diselenggarakannya Inter High School Olympiad (IHSAO) diharapkan menjadi sebuah
+				kontribusi besar dan motivasi dalam dunia pendidikan dan jembatan bagi para pelajar muda untuk 
+				berkompetisi secara sehat. Inter High School Olympiad (IHSAO) merupakan ajang adu ketangkasan
+				intelektual dalam ilmu Akuntansi bagi pelajar SMA dan SMK se-Sumatera.</p>
 			</div>
 		</div> 
 		
