@@ -27,6 +27,7 @@ body {
   border-radius: 0;
   background-clip: padding-box;
   width: 100%;
+  background-color : #edc139;
   
 }
 .navbar.stick {
@@ -34,6 +35,7 @@ body {
   top: 0;
   left: 0;
   background-color : #edc139;
+  font-weight : bold;
 }
 .navbar-collapse {
   -webkit-border-radius: 0;
@@ -45,6 +47,7 @@ body {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+  background-color : #edc139;
 }
 .navbar-collapse .navbar-nav {
   float: none;
@@ -119,7 +122,7 @@ body {
 
 *****************************************************************************************/
 .nav-side {
-  font-size: 24px;
+  font-size: 29px;
   font-size: 1.5rem;
   font-weight: 300;
   margin-top: -0.37em;
@@ -205,6 +208,15 @@ a:hover {
   font-size: 1.3125rem;
   color : #292929;
 }
+
+.lead2 {
+  font-weight: 300;
+  font-size: 35px;
+  color : #292929;
+  padding-top : 20px;
+  font-weight : bold;
+}
+
 .text-msg {
   line-height: 1.7em;
   color: #b3b3b3;
@@ -938,6 +950,14 @@ footer.entry-meta .meta-in {
 .page-header .page-title {
   margin-top: 0;
   margin-bottom: 30px;
+}
+
+.img-home {
+  display: block;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 /*********************************************************************
 
