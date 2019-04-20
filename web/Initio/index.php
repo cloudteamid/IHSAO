@@ -116,7 +116,7 @@
 							<img src="assets/images/ss1.png" alt="">
 							<span class="cover"><span class="more">Selengkapnya &rarr;</span></span>
 						</span>
-						<span class="title">Cerdas Cermat</span>
+						<span class="title">Cerdas Cermat<br></span>
 					</a>
 					<h4></h4>
 					<p></p>

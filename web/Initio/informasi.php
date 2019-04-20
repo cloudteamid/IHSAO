@@ -70,6 +70,13 @@
 		</div> 
 		<hr class="hr-style1">
 		
+		<table class="informasi-tatacara">
+			<tr>
+				<th><img class="informasi-tatacara-img" src="assets/images/p-online.jpg" alt="">
+				<th><img class="informasi-tatacara-img" src="assets/images/p-offline.jpg" alt="">
+			</tr>
+		</table>
+				<br><br><br>
 		<!-- Gelombang Pendaftaran -->
 		<table class="informasi-header">
 		<tr><th class="informasi-header-isi">Gelombang Pendaftaran Acara IHSAO 2019</th></tr>
@@ -99,11 +106,7 @@
 		<tr><th class="informasi-umum-isi">Peserta tidak diperbolehkan membawa peralatan atau alat bantu apapun kecuali kalkulator.</th></tr>
 		<tr><th class="informasi-umum-isi">Peserta hanya diperbolehkan menggunakan perlengkapan yang disediakan oleh panitia.</th></tr>
 		<tr><th class="informasi-umum-isi">Dilarang merokok dan membuang sampah sembarangan di area kampus Politeknik Caltex Riau.</th></tr>
-		
 		</table>
-		
-		
-		
 		<br><br><br>
 	</div>
 
