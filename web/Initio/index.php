@@ -25,35 +25,48 @@
 	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
 <body class="home">
+	<?php
+	include "koneksi.php";
+	?>
 
-<header id="header">
-	<div id="head">
-		<h1 id="logo" class="text-center">
-			<br class="spasi">
-		</h1>
-	</div>
-	<nav class="navbar navbar-default navbar-sticky">
-		<div class="container-fluid">
+	<?php
+    $query = mysqli_query($con, "SELECT * FROM beranda");
+    $b = mysqli_fetch_array($query)
+    ?>
 
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			</div>
-			<div class="navbar-collapse collapse">
-				
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.php">Beranda</a></li>
-					<li><a href="informasi.php">Informasi</a></li>
-					<li><a href="list-peserta.php">Peserta</a></li>
-					<li><a href="pendaftaran.php">Pendaftaran</a></li>
-				</ul>
-			</div><!--/.nav-collapse -->			
-		</div>	
-	</nav>
-	
-</header>
+	<header id="header">
+		<div id="head">
+			<h1 id="logo" class="text-center">
+				<br class="spasi">
+			</h1>
+		</div>
+		<nav class="navbar navbar-default navbar-sticky">
+			<div class="container-fluid">
 
-<main id="main">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				</div>
+				<div class="navbar-collapse collapse">
 
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.php">Beranda</a></li>
+						<li><a href="informasi.php">Informasi</a></li>
+						<li><a href="list-peserta.php">Peserta</a></li>
+						<li><a href="pendaftaran.php">Pendaftaran</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->			
+			</div>	
+		</nav>
+
+	</header>
+
+	<main id="main">
+
+		<div class="container">
+
+			<div class="row section topspace">
+				<div class="col-md-12">
+					<p class="lead text-center text-muted"><?php print $b['info_beranda']; ?></p>
 	<div class="container">
 		
 		<div class="row section">
@@ -82,28 +95,24 @@
 				<div class="col-sm-6 col-md-3"><h2 class="text-center"><i class="fa fa-user fa-2"></i></h2>
 					<h3 class="text-center">Pendaftaran</h3>
 					<br>
-					<h5 class="text-center">01 Juni 2019 s/d</h5>
-					<h5 class="text-center">01 Juli 2019</h5>
+					<h5 class="text-center"><?php print nl2br(htmlspecialchars($b['p_tl'])); ?></h5>
 				</div>
 				<div class="col-sm-6 col-md-3"><h2 class="text-center"><i class="fa fa-bell fa-2"></i></h2>
 					<h3 class="text-center">Technical Meeting</h3>
-					<h5 class="text-center"> Politeknik Caltex Riau</h5>
-					<h5 class="text-center">05 Juli 2019</h5>
+					<h5 class="text-center"><?php print nl2br(htmlspecialchars($b['tm_tl'])); ?></h5>
 				</div>
 				<div class="col-sm-6 col-md-3"><h2 class="text-center"><i class="fa fa-calendar fa-2"></i></h2>
 					<h3 class="text-center">Pembukaan Acara</h3>
-					<h5 class="text-center">Auditorium Politeknik Caltex Riau</h5>
-					<h5 class="text-center">06 Juli 2019</h5>
+					<h5 class="text-center"><?php print nl2br(htmlspecialchars($b['pa_tl'])); ?></h5>
 				</div>
 				<div class="col-sm-6 col-md-3"><h2 class="text-center"><i class="fa fa-check fa-2"></i></h2>
 					<h3 class="text-center">Acara Utama</h3>
 					<br>
-					<h5 class="text-center">Auditorium Politeknik Caltex Riau</h5>
-					<h5 class="text-center">06 Juli 2019</h5>
+					<h5 class="text-center"><?php print nl2br(htmlspecialchars($b['au_tl'])); ?></h5>
 				</div>
 			</div>
 		</div><!-- / section -->
-	
+
 		<div class="row section recentworks topspace">
 			
 			<h2 class="section-title"><span>Cabang Lomba</span></h2>
@@ -193,30 +202,30 @@
 		<div class="row">
 			<div class="col-md-3 widget">
 				<center><h3 class="widget-title">Tentang Kami</h3><center>
-				<img class="img-footer"  src="assets/images/footer-logo.jpg" alt="">
-			</div>
-
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Social Media</h3>
-				<div class="widget-title">
-					<center>
-					<button type="button" class="social-media-button icon ion-logo-instagram"><a class="a-sosmed" href="https://www.instagram.com/ihsao2019/">Instagram</a></button>
-					<button type="button" class="social-media-button icon ion-logo-whatsapp"><a  class="a-sosmed" href="https://api.whatsapp.com/send?phone=6285278037498&">Whatsapp</a></button>
-					<button type="button" class="social-media-button icon ion-md-mail"><a  class="a-sosmed" href="https://www.instagram.com/ihsao2019/">Email</a></button>
-					</center>
+					<img class="img-footer"  src="assets/images/footer-logo.jpg" alt="">
 				</div>
-			</div>
 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Informasi</h3>
-				<div class="widget-body-kontak">
-					<a href="https://goo.gl/maps/AJd4c9cBbZT2">Politeknik Caltex Riau</a><br>
+				<div class="col-md-3 widget">
+					<h3 class="widget-title">Social Media</h3>
+					<div class="widget-title">
+						<center>
+							<button type="button" class="social-media-button icon ion-logo-instagram"><a class="a-sosmed" href="https://www.instagram.com/ihsao2019/">Instagram</a></button>
+							<button type="button" class="social-media-button icon ion-logo-whatsapp"><a  class="a-sosmed" href="https://api.whatsapp.com/send?phone=6285278037498&">Whatsapp</a></button>
+							<button type="button" class="social-media-button icon ion-md-mail"><a  class="a-sosmed" href="https://www.instagram.com/ihsao2019/">Email</a></button>
+						</center>
+					</div>
 				</div>
-			</div>
 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Kontak Panitia</h3>
-				<div class="widget-body-kontak">
+				<div class="col-md-3 widget">
+					<h3 class="widget-title">Informasi</h3>
+					<div class="widget-body-kontak">
+						<a href="https://goo.gl/maps/AJd4c9cBbZT2">Politeknik Caltex Riau</a><br>
+					</div>
+				</div>
+
+				<div class="col-md-3 widget">
+					<h3 class="widget-title">Kontak Panitia</h3>
+					<div class="widget-body-kontak">
 						0896-2130-672 - VIVI PRILIA <br> 0812-6620-9947 - RENDI MAULANA
 						
 					</p>	
@@ -240,18 +249,18 @@
 				<div class="widget-body">
 					<p class="text-right">
 						&copy; IHSAO 2019 - Politeknik Caltex Riau by CloudTeamID<br> 
+					</div>
 				</div>
-			</div>
 
-		</div> <!-- /row of widgets -->
-	</div>
-</footer>
-
+			</div> <!-- /row of widgets -->
+		</div>
+	</footer>
 
 
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/template.js"></script>
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/template.js"></script>
 </body>
 </html>
