@@ -75,7 +75,7 @@
 
 			<!-- Article main content -->
 			<article class="col-sm-8 maincontent">
-				<p>Silahkan masukkan id atau nama team</p>
+				<p>Silahkan masukkan id team</p>
 				<form method="Post">
 					<table>
 						<tr>
@@ -84,6 +84,14 @@
 						</tr>
 					</table>
 				</form>
+				<br>
+				<table border="1">
+					<tr>
+						<td width="2"><center>No.</center></td>
+						<td><center>Id Team</center></td>
+						<td><center>Status</center></td>
+					</tr>
+				</table>
 				<!-- <p><img src="assets/images/mac.jpg" alt="" class="" width="100%" ></p>
 				<h3>Necessitatibus</h3>
 				<p>Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!</p>
